@@ -1,6 +1,7 @@
 from lib.counter import *
 
 def test_counter():
-    Counter.add(10)
-    result = 10
-    assert result == "Counted to 10 so far."
+    counter = Counter()
+    counter.add(10)
+    assert counter.report() == "Counted to 10 so far."
+

@@ -1,5 +1,5 @@
 class Counter:
-    def __innit__(self):
+    def __init__(self):
         self.count = 0
     
     def add(self, num):
